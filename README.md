@@ -1,5 +1,5 @@
 # Linguagens de Programação
-Professor Fernando Luís Dotti
+Professor Diego Vrague Noble
 
 
 ## Analisador Léxico
@@ -65,12 +65,13 @@ Um novo lexema é iniciado quando o símbolo lido pertence a um token diferente 
 
 ## Como executar o código groovy
 1. Abrir o terminal na pasta raiz do projeto
-2. Executar o comando ´gradle run --args"Nome_do_arquivo"´
-** O arquivo deve estar na pasta resources do projeto.
+2. Executar o comando ´gradle run --args"Nome_do_arquivo"´  
+** O arquivo deve estar na pasta resources do projeto. **
 
 ## Como executar os testes
 1. Abrir o terminal na pasta raiz do projeto
-2. Executar o comando ´gradle test´
+2. Executar o comando ´gradle test´  
+** ESTE PROJETO NÃO POSSUI TESTES. **
 
 Observações:
 * A primeira execução vai ser mais demorada, dado que o gradle vai baixar as dependencias como o Groovy-all e o JUnit5-Jupiter. As demais execuções serão mais rápidas;
